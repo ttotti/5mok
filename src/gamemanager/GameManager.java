@@ -71,7 +71,7 @@ public class GameManager {
         }
     }
 
-    // 오목
+    // 오목(6목이상은 허용안함)
     public boolean Omoklogic(int my, int mx, int player) {
         int y = my;
         int x = mx;
